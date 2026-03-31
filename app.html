@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth()">
+
+<div class="container">
+    <h1>😂 Welcome!</h1>
+
+    <p id="joke">Click below for fun!</p>
+
+    <!-- Meme Image -->
+    <img id="meme" src="" alt="meme" width="250" style="border-radius:10px; margin-top:15px;"><br><br>
+
+    <button onclick="getJoke()">Get Joke</button><br><br>
+    <button onclick="logout()">Logout</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
